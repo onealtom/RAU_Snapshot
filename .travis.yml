@@ -1,0 +1,20 @@
+language: asciidoc
+
+services:
+  - docker
+
+before_install:
+- docker pull asciidoctor/docker-asciidoctor
+
+script:
+- docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf RAU_Snapshot.adoc
+
+deploy:
+  provider: releases
+  api_key:
+    secure: 
+  file: RAU_Snapshot.pdf
+  skip_cleanup: true
+  on:
+    repo: onealtom/RAU_Snapshot
+
