@@ -7,3 +7,5 @@ https://github.com/onealtom/RAU_Snapshot/releases[pdf下载]
 
 https://github.com/onealtom/RAU_Snapshot/blob/master/RAU_Snapshot.adoc[预览]
 
+https://raw.githubusercontent.com/onealtom/RAU_Snapshot/master/RAU_Snapshot.adoc[原稿含中文]
+
