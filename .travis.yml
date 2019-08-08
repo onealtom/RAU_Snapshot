@@ -13,3 +13,6 @@ deploy:
   file: RAU_Snapshot.pdf
   on:
     repo: onealtom/RAU_Snapshot
+
+after_success:
+- sh set_tags.sh
