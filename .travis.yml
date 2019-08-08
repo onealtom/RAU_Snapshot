@@ -14,8 +14,10 @@ deploy:
   api_key:
     secure: aJ/Y1EuLfnZNoRvDm6OvRrdNOzs95dPBC1h97NQoIg1LcfHgIf6egGptxnl8e75CmF/x5ozbkf0sAj4/d31sOtbjYClSyIfViUssKN4DoR4yDJXi8HPey/G3I6EBPJUMrvZmT5S7oXSt+r2QcmamTFBQgUuIUjh5PA5nGBfxl/P6qZ/TE64MwKLjsOGIrQuYxIOmJlh5jKDEyYV2zCwd8svPMXeufof6THZdleCekiDb5DIPO5CWxz62ZpURDAR0RhhE9pFKjT5NoxVvyz8wQgtnlOI9JyCKjQ9/qkRDCx0CbcoxoKKDBr7sHw3zbYtqGWzXsVloKA2c2Nbw+lQUqAQUD8/KOBAWH0E9YOcxz+lLKwzdN/sNm/ORBwr15F7+TMIz/Xv1nJiNCqk2oBskEPrv6JiEU4T7uIopjiWeW05OClXQZvt8fUHH+IVCeZXfLIU6TLCBQWFsb9kHIHxpwC6GM7PhQhApJfCBTgwJRSF6OKoAsSFhz8y4/b7OGyoF6aCJkB0mmpo5ZhonjqEdJ6/9E4RI/iYoiAW1Twoj61FjJOjy+QCv18Uik8WMr1jrmg2wEoMmCfBZq9IsVR/clvz5nRLcsmJPBRvvMWDLVL55B0TR11PvbKruwpvnJFmWtWvHEvrClp6lLS3iytbbUTk6EjTIVal7qTvRmaKvnPQ=
   file: RAU_Snapshot.pdf
+  file_glob: "true"
   skip_cleanup: true
   on:
+    branch: master
     repo: onealtom/RAU_Snapshot
 
 after_success:
