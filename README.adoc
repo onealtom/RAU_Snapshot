@@ -1,0 +1,9 @@
+== Status
+
+image:https://travis-ci.org/onealtom/dtbd_vkbs.svg?branch=master["Build Status", link="https://travis-ci.org/onealtom/dtbd_vkbs"]
+
+
+https://github.com/onealtom/RAU_Snapshot/releases[pdf下载]
+
+https://github.com/onealtom/RAU_Snapshot/blob/master/RAU_Snapshot.adoc[预览]
+
